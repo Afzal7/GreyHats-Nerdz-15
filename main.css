@@ -1,0 +1,93 @@
+body{
+	margin:0;
+  background: -webkit-linear-gradient(90deg, #EB3349 10%, #F45C43 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #EB3349 10%, #F45C43 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #EB3349 10%, #F45C43 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #EB3349 10%, #F45C43 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #EB3349 10%, #F45C43 90%); /* W3C */
+}
+#main_container{
+	margin-top:0px;
+	width:100%;
+}
+#msg_container{
+	background:rgba(0,0,0,.7);
+	min-width:200px;
+	width:30%;
+	margin-left:50%;
+	margin-top:-6%;
+	position:fixed;
+	z-index:3;
+	color:white;
+	font-family:Consolas,Arial;
+	font-size:18px;
+	text-shadow:0px 0px 2px grey;
+	border-radius:5px;
+	display:none;
+	transform:translateX(-50%);
+}
+#timer{
+	padding:10px;
+	font-family:Consolas,Arial;
+	font-size:20px;
+	text-shadow:0px 0px 2px grey;
+}
+#timer:before{
+	content:'Time Left : ';
+}
+#login_form_container{
+	width:40%;
+	margin:0 auto;
+	margin-top:7%;
+	padding:2% 4% 2% 4%;
+	background:white;
+	box-shadow:0px 0px 0px 10px rgba( 255,255,255,0.4 ), 
+        0px 4px 25px rgba( 0,0,0,0.33 );
+	text-align:center;
+	font-family:Consolas,Arial;
+	font-size:17px;
+}
+#heading{
+	font-size:28px;
+	display:block;
+	font-family:Arial;font-weight:bold;
+}
+input[type='text'],input[type='password']{
+	width:60%;
+	height:30px;
+	margin-top:10px;
+	padding:8px;
+	background-color:rgba(255,255,255,0.8);
+	border: 1px solid #ccc;
+	border-radius:3px;
+	font-family:Consolas,Arial;
+	font-size:15px;
+	min-width:250px;
+	outline:0;
+	box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+}
+input[type='button'],input[type='submit']{
+	padding:6px 13px;
+	margin:5px;
+	font-family:Consolas,Arial;
+	font-size:17px;
+	background:rgba(0,100,150,1);
+	color:white;
+	outline:0;
+	cursor:pointer;
+	border:solid 2px transparent;
+	border-radius:3px;
+}
+input[type='button']:hover,input[type='submit']:hover{
+	background:rgba(0,100,150,.8);
+}
+#user_name{
+	font-family:Constantia,Arial;
+	font-size:15px;
+	float:right;
+}
+ul{
+	padding-left:2%;
+	text-align:justify;
+	font-family:Constantia,Arial;
+}
